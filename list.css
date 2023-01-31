@@ -1,0 +1,37 @@
+/*selecting the font size*/
+ul,
+ol,
+dl {
+    font-size: 18px;
+}
+
+/* setting the same line height for the list items as the paragraphs */
+
+li,
+dd, 
+dt {
+    line-height: 28px;
+}
+
+/* make the description terms bold */
+
+dt {
+    font-weight: 500; 
+}
+
+/* Bullet styles */
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+/* Bullet position */
+ol,
+ul {
+    list-style-position: inside;
+}
+
+main ul {
+    list-style: square;
+    list-style-position: inside;
+}
